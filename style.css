@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: green;
+}
+
+#quote-box{
+    border: 1px solid #000000;
+    border-radius: 15px 50px;
+    margin: 35px 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+#text{
+    font-style: italic;
+    color: #3a3a3a;
+    font-size: 33px;
+}
+
+#text:before {
+    content: open-quote;
+}
+
+#text:after {
+    content: close-quote;
+}
+
+#new-quote{
+    margin-top: 40px;
+}
+
+#tweet-quote{
+    margin-top: 30px;
+}
